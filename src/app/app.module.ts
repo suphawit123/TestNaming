@@ -7,6 +7,14 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { LoginPage } from '../pages/login/login';
+import { RegisterPage } from '../pages/register/register';
+import { ResetpasswordPage } from '../pages/resetpassword/resetpassword';
+import { ForgetpasswordPage } from '../pages/forgetpassword/forgetpassword';
+import { SettingPage } from '../pages/setting/setting';
+import { CoursePage } from '../pages/course/course';
+import { CourseDetailPage } from '../pages/course-detail/course-detail';
+import { CourseDetailYoutubePage } from '../pages/course-detail-youtube/course-detail-youtube';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +25,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    LoginPage,
+    RegisterPage,
+    ResetpasswordPage,
+    ForgetpasswordPage,
+    SettingPage,
+    CoursePage,
+    CourseDetailPage,
+    CourseDetailYoutubePage,
   ],
   imports: [
     BrowserModule,
@@ -29,7 +45,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    LoginPage,
+    RegisterPage,
+    ResetpasswordPage,
+    ForgetpasswordPage,
+    SettingPage,
+    CoursePage,
+    CourseDetailPage,
+    CourseDetailYoutubePage,
   ],
   providers: [
     StatusBar,
